@@ -13,17 +13,17 @@ body {
 }
 
 .card {
-    /*background: url('h2ome.jpg') no-repeat center center;  Utilisez votre image comme fond */
     background-color: rgba(255, 255, 255, 0.8); /* Blanc avec 80% d'opacité */
-    background-size: cover; /* Pour que l'image couvre tout l'espace */
     padding: 2rem;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     text-align: center;
     width: 300px;
+    margin-top: 400px; /* Ajoutez cette ligne pour abaisser la carte */
     animation: popIn 1s ease forwards;
     color: white; /* Pour que le texte soit lisible */
 }
+
 
 h1 {
     font-size: 1.5rem;
@@ -42,9 +42,9 @@ p {
 
 .buttons {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
-    gap: 0px;
-    justify-items: center;
+    grid-template-columns: repeat(2, 1fr); /* Crée 2 colonnes de même largeur */
+    gap: 10px; /* Ajoute un espace de 10px entre les boutons */
+    justify-items: center; /* Centre les boutons dans chaque colonne */
     margin-top: 1rem;
 }
 
