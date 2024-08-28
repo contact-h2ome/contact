@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Arial', sans-serif;
     background-image: url('h2ome.jpg');
-    background-size: 99%;
+    background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
     display: flex;
