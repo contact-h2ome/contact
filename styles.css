@@ -18,7 +18,7 @@ body {
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 200px;
+    width: 250px;
     margin-top: 300px; /* Ajoutez cette ligne pour abaisser la carte */
     animation: popIn 1s ease forwards;
     color: white; /* Pour que le texte soit lisible */
