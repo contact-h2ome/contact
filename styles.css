@@ -14,11 +14,11 @@ body {
 
 .card {
     background-color: rgba(255, 255, 255, 0.8); /* Blanc avec 80% d'opacité */
-    padding: 2rem;
+    padding: 1.5rem;
     border-radius: 15px;
     box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
     text-align: center;
-    width: 300px;
+    width: 250px;
     margin-top: 400px; /* Ajoutez cette ligne pour abaisser la carte */
     animation: popIn 1s ease forwards;
     color: white; /* Pour que le texte soit lisible */
